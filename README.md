@@ -1,3 +1,8 @@
+To check live demo kindly click on
+
+https://react-hnews.herokuapp.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
