@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Table from '../Table';
 import hackerNApi from '../../api/hackerNApi';
-// import Chart from '../Chart';
+import Chart from '../Chart';
 
 class News extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -134,7 +133,8 @@ class News extends Component {
           upVoteButton={this.onUpVoteClickHandler}
           bookMarkButton={this.onBookMarkButtonHandler}
           onHideButton={this.onHideButtonHandler} />
-                  {/* <Chart payload={this.state} /> */}
+
+        <Chart payload={this.state} />
       </>
     );
   }
